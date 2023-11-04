@@ -1,10 +1,11 @@
 import Image from "next/image"
 import Link from "next/link"
 import Img_main from '../../../public/images/main_banner.webp'
+import { Cards } from "./mainComponents/cards"
 
 export const Mains = () => {
     return (
-        <main>
+        <main className="flex flex-col items-center w-screen h-auto">
             <section className="flex justify-center flex-col gap-5 items-center relative w-screen text-white font-medium h-[300px]">
                 <Image fill={true} className="object-cover" src={Img_main}/>
                 <p className="relative bottom-[20px] font-bold text-xl text-center z-10">
@@ -18,6 +19,7 @@ export const Mains = () => {
                     </button>
                 </Link>
             </section>
+            <Cards/>
         </main>
     )
 }
