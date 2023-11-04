@@ -2,6 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import Img_main from '../../../public/images/main_banner.webp'
 import { Cards } from "./mainComponents/cards"
+import { AboutUs } from "./mainComponents/quemSomos" 
 
 export const Mains = () => {
     return (
@@ -20,6 +21,7 @@ export const Mains = () => {
                 </Link>
             </section>
             <Cards/>
+            <AboutUs/>
         </main>
     )
 }

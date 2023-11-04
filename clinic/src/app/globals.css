@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layout base {
-    :root {
-        --svg-color: 156 163 175;
-    }
+:root {
+    --svg-color: rgb(156, 163, 175);
+    --text-card-color:  rgb(99, 105, 115);
 }
