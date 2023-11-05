@@ -32,9 +32,11 @@ export const Headers = () => {
                     </li>
                     <li className="font-medium">Logo</li>
                     <li>
-                        <button className="bg-blue-400 font-bold text-white px-2 cursor-pointer py-1 rounded-md">
-                            Entrar
-                        </button>
+                        <Link className="bg-blue-400 font-bold text-white px-2 cursor-pointer py-1 rounded-md" href={`/login`}>
+                            <button >
+                                Entrar
+                            </button>
+                        </Link>
                     </li>
                 </ol>
                 <ol className="hidden">
