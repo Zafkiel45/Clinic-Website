@@ -1,13 +1,13 @@
-export default function Login({children}) {
+export default function Register({ children }) {
     return (
         <>
             { children }
         </>
     )
-} 
+}
 export async function generateMetadata() {
     return({
-        title: 'Login',
-        description: 'Login now!'
+        title: 'Register',
+        description: 'Register now!'
     })
 }

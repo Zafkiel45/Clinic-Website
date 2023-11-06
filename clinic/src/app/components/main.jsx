@@ -16,7 +16,7 @@ export const Mains = () => {
                     <br />
                     Lorem
                 </p>
-                <Link href={`#`}>
+                <Link href={`/register`}>
                     <button className="relative bottom-[10px] px-5 rounded-md py-1 z-10 font-bold text-sm shadow-lg bg-blue-400" >
                         Cadastrar
                     </button>
