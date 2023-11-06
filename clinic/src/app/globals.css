@@ -6,3 +6,11 @@
     --svg-color: rgb(156, 163, 175);
     --text-card-color:  rgb(99, 105, 115);
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}

@@ -17,6 +17,12 @@ module.exports = {
         svgs: 'var(--svg-color)',
         'color-card': 'var(--text-card-color)'
       },
+      screens: {
+        'mobileMini': '510px',
+        'tabletMini': '755px',
+        'desktopMini': '1100px',
+        'desktop': '1320px',
+      }
     },
   },
   plugins: [],

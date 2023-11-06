@@ -7,15 +7,15 @@ export const Units = () => {
     const [state, setState] = useState('')
 
     return (
-        <section className="flex flex-col items-center gap-5 w-screen h-auto p-4">
-            <div className="w-full font-bold text-[17px] text-center">
+        <section id="units" className="flex flex-col items-center gap-5 w-screen tabletMini:py-16 h-auto p-4">
+            <div className="w-full font-bold tabletMini:text-[22px] text-[17px] text-center">
                 <h1>
                     Encontre a unidade mais próxima <br />
                     de você.
                 </h1>
             </div>
             <div className="w-full h-auto flex gap-2 justify-center">
-                <select ref={MyRef} name="estado" id="" className="outline-none bg-white border rounded-md border-gray-300 p-2">
+                <select ref={MyRef} name="estado" id="" className="outline-none bg-white border tabletMini:w-[50%] rounded-md border-gray-300 p-2">
                     <option value="-" disabled selected>Escolha seu estado</option>
                     <option value="joão pessoa">Paraíba</option>
                     <option value="Manaus">Amazonas</option>
@@ -44,13 +44,13 @@ export const Units = () => {
                     <option value="Maceió">Alogoas</option>
                     <option value="Aracaju">Sergipe</option>
                 </select>
-                <button onClick={() => {setState(MyRef.current.value)}}className="bg-blue-400 font-medium rounded-md p-2 text-white text-sm">
+                <button onClick={() => {setState(MyRef.current.value)}} className="bg-blue-400 font-medium rounded-md tabletMini:px-5 px-2 py-2 text-white tabletMini:text-base text-sm">
                     procurar
                 </button>
             </div>
-            <div className="font-medium w-full flex items-center justify-center flex-col gap-3">
+            <div className="font-medium w-full tabletMini:text-xl flex items-center justify-center flex-col gap-3">
                 Unidade mais próxima fica em:
-                <span className="text-white font-bold bg-blue-500 rounded-lg w-fit h-fit py-1 px-3">{ state }</span>
+                <span className="text-white font-bold bg-blue-500 rounded-lg w-fit h-fit tabletMini:py-2 tabletMini:px-4 py-1 px-3">{ state }</span>
             </div>
         </section>
     )
