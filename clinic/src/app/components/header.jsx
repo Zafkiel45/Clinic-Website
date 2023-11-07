@@ -17,14 +17,14 @@ export const Headers = () => {
     }
     useEffect(() => {
         if(position === 'left-[-100%]') {
-            document.body.style.overflow = 'scroll'
+            document.body.style.overflowY = 'scroll'
         } else {
-            document.body.style.overflow = 'hidden'
+            document.body.style.overflowY = 'hidden'
         }
     },[position])
 
     return (
-        <header className="relative w-screen h-auto p-3 bg-white text-black" >
+        <header className="relative w-screen h-auto tabletBig:px-5 p-3 bg-white text-black" >
             <nav className="w-full h-auto p-1 bg-transparent">
                 <ol className="tabletMini:hidden flex justify-between items-center text-sm">
                     <li className="cursor-pointer" onClick={togglePosition} >
@@ -42,7 +42,7 @@ export const Headers = () => {
                     </li>
                 </ol>
                 <ol className="hidden tabletMini:flex items-center gap-5">
-                    <li className="grow">Logo</li>
+                    <li className="grow tabletBig:text-lg font-bold">Logo</li>
                     <Link href={'/#aboutus'}>                    
                         <li className="font-medium">Quem somos</li>
                     </Link>

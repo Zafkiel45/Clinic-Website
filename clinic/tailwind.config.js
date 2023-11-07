@@ -20,9 +20,19 @@ module.exports = {
       screens: {
         'mobileMini': '510px',
         'tabletMini': '755px',
+        'tabletBig': '900px',
         'desktopMini': '1100px',
         'desktop': '1320px',
-      }
+      },
+      animation: {
+        fadeIn: 'fadeIn 1.5s ease forwards'
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': {opacity: '0'},
+          '100%': {opacity: '1'}
+        }
+      },
     },
   },
   plugins: [],

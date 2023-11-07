@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} animate-fadeIn overflow-x-hidden`}>{children}</body>
     </html>
   )
 }

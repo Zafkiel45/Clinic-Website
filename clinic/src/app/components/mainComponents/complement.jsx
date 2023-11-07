@@ -1,7 +1,7 @@
 export const Complement = () => {
     return (
-        <section id="moreinfos" className="bg-complement text-white w-scren bg-center bg-cover mobileMini:py-10 desktop:px-10 desktop:h-80 flex gap-5 flex-col items-center h-fit p-5">
-            <div className="font-bold mobileMini:text-2xl text-xl mobileMini:my-1 my-4 w-full text-center">
+        <section id="moreinfos" className="bg-complement text-white w-scren bg-center bg-cover mobileMini:py-10 tabletBig:text-lg tabletBig:px-10 tabletMini:h-[350px] desktop:h-80 flex gap-5 flex-col items-center h-fit p-5">
+            <div className="font-bold mobileMini:text-2xl tabletBig:text-3xl text-xl mobileMini:my-1 my-4 w-full text-center">
                 <h1>Lorem ipsu</h1>
             </div>
             <div className="font-medium desktopMini:text-lg text-justify">
