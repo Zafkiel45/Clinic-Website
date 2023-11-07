@@ -5,6 +5,7 @@ import { Cards } from "./mainComponents/cards"
 import { AboutUs } from "./mainComponents/quemSomos"
 import { Complement } from "./mainComponents/complement" 
 import { Units } from "./mainComponents/Units"
+import { Beneficies } from "./mainComponents/beneficies"
 
 export const Mains = () => {
     return (
@@ -26,6 +27,7 @@ export const Mains = () => {
             <AboutUs/>
             <Complement/>
             <Units/>
+            <Beneficies/>
         </main>
     )
 }
