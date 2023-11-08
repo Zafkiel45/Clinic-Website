@@ -1,6 +1,6 @@
 export const AboutUs = () => {
     return (
-        <section id="aboutus" className="w-screen tabletMini:py-7 tabletBig:px-10 py-10 h-auto">
+        <section data-aos="fade-right" id="aboutus" className="w-screen tabletMini:py-7 tabletBig:px-10 py-10 h-auto">
             <div className="w-full text-center">
                 <h1 className="mobileMini:text-2xl font-bold text-xl mb-[3%]">
                     Quem Somos

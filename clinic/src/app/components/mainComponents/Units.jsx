@@ -7,7 +7,7 @@ export const Units = () => {
     const [state, setState] = useState('')
 
     return (
-        <section id="units" className="flex flex-col items-center gap-5 w-screen tabletMini:py-16 h-auto mobileMini:pt-14 px-4 desktopMini:my-16 py-10">
+        <section data-aos="fade-up-right" id="units" className="flex flex-col items-center gap-5 w-screen tabletMini:py-16 h-auto mobileMini:pt-14 px-4 desktopMini:my-16 py-10">
             <div className="w-full font-bold tabletBig:text-2xl mobileMini:text-xl tabletMini:text-[22px] text-[17px] text-center">
                 <h1>
                     Encontre a unidade mais próxima <br />

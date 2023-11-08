@@ -1,6 +1,6 @@
 export const Beneficies = () => {
     return (
-        <section className="w-screen tabletMini:h-[300px] h-[400px] py-8 px-6 bg-blue-400 text-white tabletMini:flex-col flex items-center gap-5">
+        <section data-aos="fade-left" className="w-screen tabletMini:h-[300px] h-[400px] py-8 px-6 bg-blue-400 text-white tabletMini:flex-col flex items-center gap-5">
             <div className="w-[10%] tabletMini:w-full tabletMini:h-[10%] justify-between items-center h-full tabletMini:flex-row flex flex-col">
                 <div className="w-3 h-full tabletMini:w-full tabletMini:h-3 relative">
                     <div className="desktopMini:w-4 desktopMini:h-4 w-3 h-3 bg-white relative rounded-full"></div>

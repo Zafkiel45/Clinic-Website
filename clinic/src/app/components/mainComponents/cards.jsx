@@ -1,7 +1,7 @@
 export const Cards = () => {
     return (
         <section className="relative w-full min-[890px]:h-[300px] desktopMini:h-[300px] tabletMini:h-[390px] h-[920px] p-3 flex justify-center">
-            <div className="absolute h-fit flex flex-col min-[890px]:justify-center tabletMini:flex-row gap-3 desktopMini:top-[-100px] top-[-50px]">
+            <div data-aos="fade-up" className="absolute h-fit flex flex-col min-[890px]:justify-center tabletMini:flex-row gap-3 desktopMini:top-[-100px] top-[-50px]">
                 <div className="bg-white border min-[890px]:w-[30%]  desktopMini:w-[25%] desktopMini:h-[355px] tabletMini:w-52 p-4 border-gray-200 w-64 rounded-lg shadow-lg flex flex-col justify-center gap-2">
                     <div className="my-0 mx-auto p-2"> 
                         <svg xmlns="http://www.w3.org/2000/svg"  height='25px' width='25px' fill="rgb(156, 163, 175)" className="desktopMini:h-[30px] desktopMini:w-[25px] h-[25px] w-[25px] " class="bi bi-calendar-check" viewBox="0 0 16 16">
