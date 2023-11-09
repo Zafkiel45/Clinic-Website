@@ -6,11 +6,12 @@ import { Complement } from "./mainComponents/complement"
 import { Units } from "./mainComponents/Units"
 import { Beneficies } from "./mainComponents/beneficies"
 import { Specialty } from "./mainComponents/specialty"
+import { Description } from "./mainComponents/description"
 
 export const Mains = () => {
     return (
         <main className="flex flex-col items-center w-screen h-auto">
-            <section className="flex justify-center flex-col gap-5 items-center relative w-screen text-white font-bold desktopMini:h-[600px] min-[890px]:h-[450px] tabletMini:h-[470px] h-[300px] mobileMini:h-[400px]">
+            <section className="flex justify-center flex-col gap-5 items-center relative w-screen text-white font-bold desktopMini:h-[600px] min-[890px]:h-[450px] tabletMini:h-[470px] h-[350px] mobileMini:h-[400px]">
                 <Image fill={true} className="brightness-75 object-cover" src={Img_main}/>
                 <p className="mobileMini:text-2xl tabletBig:text-3xl desktopMini:text-4xl relative bottom-[20px] font-bold text-xl text-center z-10">
                     Lorem ipsum dolor
@@ -25,7 +26,7 @@ export const Mains = () => {
             </section>
             <Specialty/>
             <Complement/>
-            <Cards/>
+            <Description/>
             <Beneficies/>
             <Units/>
         </main>
