@@ -1,7 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
 import Img_main from '../../../public/images/doctors.webp'
-import { Cards } from "./mainComponents/cards"
 import { Complement } from "./mainComponents/complement" 
 import { Units } from "./mainComponents/Units"
 import { Beneficies } from "./mainComponents/beneficies"

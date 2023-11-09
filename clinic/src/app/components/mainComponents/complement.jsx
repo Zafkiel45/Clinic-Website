@@ -1,6 +1,6 @@
 export const Complement = () => {
     return (
-        <section data-aos="fade-down" id="moreinfos" className="bg-complement text-white w-scren bg-center bg-cover mobileMini:py-10 tabletBig:text-lg tabletBig:px-10 tabletMini:h-[350px] desktop:h-80 flex gap-5 flex-col items-center h-fit py-10 px-5">
+        <section data-aos="fade-down" id="moreinfos" className="bg-complement text-white w-scren bg-center bg-cover mobileMini:py-10 tabletBig:text-lg tabletBig:px-16  tabletBig:h-[450px] tabletMini:h-[350px]  flex gap-5 flex-col items-center h-fit py-10 px-5">
             <div className="font-bold mobileMini:text-2xl tabletBig:text-3xl text-xl mobileMini:my-1 my-4 w-full text-center">
                 <h1>Lorem ipsu</h1>
             </div>

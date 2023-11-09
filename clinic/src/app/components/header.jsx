@@ -43,11 +43,17 @@ export const Headers = () => {
                 </ol>
                 <ol className="hidden tabletMini:flex items-center gap-5">
                     <li className="grow tabletBig:text-lg font-bold">Logo</li>
-                    <Link href={'/#aboutus'}>                    
-                        <li className="font-medium">Quem somos</li>
+                    <Link href={'/#specialty'}>                    
+                        <li className="font-medium">Especialidades</li>
                     </Link>
                     <Link href={'/#moreinfos'}>                    
                         <li className="font-medium">Mais informações</li>
+                    </Link>
+                    <Link href={'/#aboutus'}>                    
+                        <li className="font-medium">Nossa Equipe</li>
+                    </Link>
+                    <Link href={'/#beneficies'}>                    
+                        <li className="font-medium">Benefícios</li>
                     </Link>
                     <Link href={'/#units'} >                    
                         <li className="font-medium">Unidades</li>
