@@ -24,7 +24,7 @@ export const Headers = () => {
     },[position])
 
     return (
-        <header className="relative w-screen h-auto tabletBig:px-5 p-3 bg-white text-black" >
+        <header className="relative w-screen h-auto tabletBig:px-5 p-3 bg-white text-black shadow-md" >
             <nav className="w-full h-auto p-1 bg-transparent">
                 <ol className="tabletMini:hidden flex justify-between items-center text-sm">
                     <li className="cursor-pointer" onClick={togglePosition} >

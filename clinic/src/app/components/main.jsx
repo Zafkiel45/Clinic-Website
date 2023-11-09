@@ -1,17 +1,17 @@
 import Image from "next/image"
 import Link from "next/link"
-import Img_main from '../../../public/images/main_banner.webp'
+import Img_main from '../../../public/images/doctors.webp'
 import { Cards } from "./mainComponents/cards"
-import { AboutUs } from "./mainComponents/quemSomos"
 import { Complement } from "./mainComponents/complement" 
 import { Units } from "./mainComponents/Units"
 import { Beneficies } from "./mainComponents/beneficies"
+import { Specialty } from "./mainComponents/specialty"
 
 export const Mains = () => {
     return (
         <main className="flex flex-col items-center w-screen h-auto">
-            <section className="flex justify-center flex-col gap-5 items-center relative w-screen text-white font-medium desktopMini:h-[600px] min-[890px]:h-[450px] tabletMini:h-[470px] h-[300px] mobileMini:h-[400px]">
-                <Image fill={true} className="object-cover" src={Img_main}/>
+            <section className="flex justify-center flex-col gap-5 items-center relative w-screen text-white font-bold desktopMini:h-[600px] min-[890px]:h-[450px] tabletMini:h-[470px] h-[300px] mobileMini:h-[400px]">
+                <Image fill={true} className="brightness-75 object-cover" src={Img_main}/>
                 <p className="mobileMini:text-2xl tabletBig:text-3xl desktopMini:text-4xl relative bottom-[20px] font-bold text-xl text-center z-10">
                     Lorem ipsum dolor
                     <br />
@@ -23,11 +23,11 @@ export const Mains = () => {
                     </button>
                 </Link>
             </section>
-            <Cards/>
-            <AboutUs/>
+            <Specialty/>
             <Complement/>
-            <Units/>
+            <Cards/>
             <Beneficies/>
+            <Units/>
         </main>
     )
 }
