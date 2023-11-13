@@ -16,14 +16,11 @@ export const Beneficies = () => {
             </div>
             <div className="flex tabletBig:text-xl desktop:text-xl tabletMini:flex-row h-full mobileMini:text-base tabletMini:text-lg text-sm justify-between flex-col gap-6">
                 <div className="tabletMini:w-full tabletMini:text-left">
-                    Lorem ipsum dolor sit amet consectetur, sentium corrupti animi tenetur unde error. Dolore, expedita libero!
-                </div>
+                    Conveniência Nacional: Com múltiplas franquias pelo Brasil, estamos sempre próximos para cuidar de você, onde quer que esteja.                </div>
                 <div className="tabletMini:w-full tabletMini:text-center">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est debitis non unde ibusdam 
-                </div>
+                    Eficiência em Cuidados: Garantimos atendimentos ágeis e eficazes, priorizando a saúde e o conforto de nossos pacientes                </div>
                 <div className="tabletMini:w-full tabletMini:text-right">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur animi labore sequi quam 
-                </div>
+                    Saúde Acessível: Oferecemos qualidade a preços acessíveis, assegurando que cuidar de si não precise ser um luxo.                </div>
             </div>
         </section>
     )

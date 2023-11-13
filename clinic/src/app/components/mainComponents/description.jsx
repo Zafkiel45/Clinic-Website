@@ -9,11 +9,10 @@ export const Description = () => {
             </div>
             <div className="w-full">
                 <div className="w-full text-center font-bold tabletMini:text-2xl desktop:text-3xl text-xl">
-                    <h1 className="p-3">Lorem Ipsum</h1>
+                    <h1 className="p-3">Nossa equipe</h1>
                 </div>
                 <div className="w-full desktop:text-lg text-center">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellendus eum officia, id, sapiente velit nam voluptate ducimus amet illo ipsum dolore iste nulla placeat sequi hic suscipit perferendis consectetur!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur corrupti beatae eveniet alias, sed expedita possimus! Mollitia dignissimos odit exercitationem adipisci soluta. Atque fugiat porro quas quia, saepe facere accusamus.
+                Nossa equipe médica é formada por especialistas dedicados e experientes, comprometidos em oferecer cuidados de excelência. Com profissionais de diversas áreas da saúde, nossa equipe multidisciplinar garante um atendimento abrangente e personalizado para cada paciente, priorizando a saúde e o bem-estar.
                 </div>
             </div>
         </section>
